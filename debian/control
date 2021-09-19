@@ -2,7 +2,7 @@ Source: libfusekit
 Section: contrib/libs
 Priority: optional
 Maintainer: Gerhard Lipp <gerhard_lipp@gmx.de>
-Build-Depends: debhelper (>= 10), autotools-dev, libfuse-dev
+Build-Depends: debhelper (>= 10), autotools-dev, libfuse-dev, pkg-config
 Standards-Version: 4.1.2
 Homepage: https://github.com/multicast/fusekit
 

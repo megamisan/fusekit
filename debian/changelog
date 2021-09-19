@@ -1,3 +1,9 @@
+libfusekit (0.7.2) unstable; urgency=low
+
+  * Minimal build environment fix
+
+ -- Pierrick Caillon <pierrick.caillon+fusekit@megami.fr>  Sun, 19 Sep 2021 11:54:48 +0200
+
 libfusekit (0.7.1) unstable; urgency=low
 
   * Symlink bugfix
