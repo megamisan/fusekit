@@ -59,12 +59,9 @@ AM_SANITY_CHECK
 AC_LANG([C++])
 
 # Checks for std header files.
-AC_HEADER_STDC
 AC_CHECK_HEADERS([fcntl.h string.h unistd.h])
 AC_CHECK_HEADERS([tr1/unordered_map])
 AC_CHECK_HEADERS([tr1/functional])
-
-
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_C_CONST
