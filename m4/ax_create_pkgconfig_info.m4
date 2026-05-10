@@ -140,7 +140,7 @@ AC_MSG_RESULT($PKGCONFIG_requires)
 
 AC_MSG_CHECKING(our pkgconfig ext libs)
 PKGCONFIG_pkglibs="$PACKAGE_LIBS"
-test ".$PKGCONFIG_pkglibs" != "." || PKGCONFIG_pkglibs="-l$PKGCONFIG_libname"
+#test ".$PKGCONFIG_pkglibs" != "." || PKGCONFIG_pkglibs="-l$PKGCONFIG_libname" # Removed because of headers only
 PKGCONFIG_libs="ifelse($3,,$PKGCONFIG_pkglibs $LIBS,$3)"
 PKGCONFIG_libs=`eval echo "$PKGCONFIG_libs"`
 PKGCONFIG_libs=`eval echo "$PKGCONFIG_libs"`
